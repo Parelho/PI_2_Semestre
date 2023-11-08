@@ -18,3 +18,9 @@ body {
     text-align: center;
     color: white;
 }
+
+.container h4 {
+    font-style: italic;
+    text-align: center;
+    color: white;
+}

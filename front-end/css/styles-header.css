@@ -4,3 +4,10 @@ header{
     background-position: center;
     height: 300px; 
 }
+
+.pagina-principal{
+    background-image: url("/front-end/imgs/pagina-principal.png");
+    background-size: cover;
+    background-position:top center;
+    height: 400px; 
+}
