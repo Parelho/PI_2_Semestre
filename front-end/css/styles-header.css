@@ -1,13 +1,13 @@
-header{
-    background-image: url("/front-end/imgs/angico-vermelho.jpg");
+.pagina-angico-vermelho{
+    background-image: url("/front-end/imgs/angico-vermelho-header.jpg");
     background-size: cover;
-    background-position: center;
-    height: 300px; 
+    background-position: top center;
+    height: 400px; 
 }
 
 .pagina-principal{
     background-image: url("/front-end/imgs/pagina-principal.png");
     background-size: cover;
-    background-position:top center;
+    background-position: top center;
     height: 400px; 
 }
