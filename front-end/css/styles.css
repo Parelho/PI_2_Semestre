@@ -6,12 +6,6 @@ body {
     position: relative;
     text-align: center;
 }
-header{
-    background-image: url("/front-end/imgs/angico-vermelho.jpg");
-    background-size: cover;
-    background-position: center;
-    height: 300px; 
-}
 
 .container {
     display: flex;
