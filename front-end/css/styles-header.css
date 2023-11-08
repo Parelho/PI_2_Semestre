@@ -18,7 +18,13 @@
     height: 400px; 
 }
 .p_uvaia{
-    background-image: url("/imgs/p_uvaia2.jpg");
+    background-image: url("/imgs/fundo_titulo_plantas.jpg");
+    background-size: cover;
+    background-position: top center;
+    height: 400px; 
+}
+.p_palmeira_jucara{
+    background-image: url("/imgs/fundo_titulo_plantas.jpg");
     background-size: cover;
     background-position: top center;
     height: 400px; 
