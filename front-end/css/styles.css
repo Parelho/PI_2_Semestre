@@ -35,3 +35,15 @@ footer {
     padding: 20px;
     margin-top: 100px;
 }
+
+.abelha-imagem-padrao {
+    max-height: 200px;
+    width: 270px;
+}
+
+.titulo-nome-abelha{
+    font-weight: bold;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: start;
+    font-size: x-large;
+}
