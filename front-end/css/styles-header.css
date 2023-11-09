@@ -4,7 +4,24 @@
     background-position: top center;
     height: 400px; 
 }
-
+.p_abelhas{
+    background-image: url("/front-end/imgs/abelhas_header.jpg");
+    background-size: cover;
+    background-position: top center;
+    height: 400px;  
+}
+.p_propagacao_cambucizeiros{
+    background-image: url("/front-end/imgs/cambucizeiro_header.jpg");
+    background-size: cover;
+    background-position: top center;
+    height: 400px;
+}
+.p_projeto_interbairros{
+    background-image: url("/front-end/imgs/projeto_interbairros_header.jpg");
+    background-size: cover;
+    background-position: top center;
+    height: 400px; 
+}
 .pagina-principal{
     background-image: url("/front-end/imgs/pagina-principal.png");
     background-size: cover;
