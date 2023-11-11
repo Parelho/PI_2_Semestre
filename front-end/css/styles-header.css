@@ -4,6 +4,12 @@
     background-position: top center;
     height: 400px; 
 }
+.p_contatos{
+    background-image: url("/front-end/imgs/contato_header.jpg");
+    background-size: cover;
+    background-position: top center;
+    height: 400px;  
+}
 .p_abelhas{
     background-image: url("/front-end/imgs/abelhas_header.jpg");
     background-size: cover;
