@@ -11,26 +11,86 @@
     <title>Página Principal</title>
 </head>
 <body>
-    <nav>
-        <input type="checkbox" id="check">
-        <label for="check" class="checkbtn">
-          <i class="fas fa-bars"></i>
-        </label>
-        <label class="logo">Missão Ambiental</label>
-        <ul>
-            <li id="home"><a href="#"><img src="../imgs/Logo.png" alt="Home"> Home</a></li>
-            <li><a href="#"><img src="../imgs/icones/compostagem.png" alt="Compostagem comunitária"> Compostagem comunitária</a></li>
-            <li><a href="#"><img src="../imgs/icones/abelhas.png" alt="Abelhas nativas sem ferrão"> Abelhas nativas sem ferrão</a></li>
-            <li><a href="#"><img src="../imgs/icones/captacao-de-agua.png" alt="Captação de água da chuva"> Captação de água da chuva</a></li>
-            <li><a href="#"><img src="../imgs/icones/materiais-reciclaveis.png" alt="Materiais recicláveis"> Materiais recicláveis</a></li>
-            <li><a href="#"><img src="../imgs/icones/especies-nativas.png" alt="Espécies nativas"> Espécies nativas</a></li>
-            <li><a href="#"><img src="../imgs/icones/oficinas.png" alt="Oficinas"> Oficinas</a></li>
-            <li><a href="#"><img src="../imgs/icones/voluntarios.png" alt="Voluntários"> Voluntários</a></li>
-            <li><a href="#"><img src="../imgs/icones/projeto-interbairros.png" alt="Projeto interbairros"> Projeto interbairros</a></li>
-            <li><a href="#"><img src="../imgs/icones/parceiros.png" alt="Parceiros"> Parceiros</a></li>
-            <li><a href="#"><img src="../imgs/icones/contato.png" alt="Contato"> Contato</a></li>
-        </ul>
-      </nav>
+    <nav class="navbar justify-content-start">
+        <button type="button" class="navbar-toggler me-3" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Usar navegador">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <a href="pagina-principal.html" class="navbar-brand h1 mb-0 d-flex align-items-center">
+            <img class="d-inline-block align-top me-2" src="../imgs/Logo.png" alt="Logo" width="50" height="50">
+            <span class="ms-2">Missão Ambiental</span>
+            <div class="navbar-nav d-flex flex-row h5">
+                <a href="p_voluntario.html" class="nav-link px-3 d-none d-lg-block">Voluntários</a>
+                <a href="#" class="nav-link px-3 d-none d-lg-block">Oficinas</a>
+                <a href="p_projeto_interbairros.html" class="nav-link px-3 d-none d-lg-block">Projeto Interbairros</a>
+                <a href="p_contato.html" class="nav-link px-3 d-none d-lg-block">Contato</a>
+            </div>
+        </a>
+
+        <div class="container justify-content-around h4">
+            <div class="col-12 col-md-4">
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item active">
+                            <a href="#" class="nav-link">
+                                <img src="../imgs/icones/compostagem.png" class="nav-img">
+                                Compostagem comunitária</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a href="p_abelhas.html" class="nav-link">
+                                <img src="../imgs/icones/abelhas.png" class="nav-img">
+                                Abelhas nativas sem ferrão</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a href="#" class="nav-link">
+                                <img src="../imgs/icones/captacao-de-agua.png" class="nav-img">
+                                Captação de água da chuva</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a href="p_materiais_reciclaveis.html" class="nav-link">
+                                <img src="../imgs/icones/materiais-reciclaveis.png" class="nav-img">
+                                Materiais reciclaveis</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a href="#" class="nav-link">
+                                <img src="../imgs/icones/especies-nativas.png" class="nav-img">
+                                Especies nativas</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-12 col-md-4">                
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item active">
+                            <a href="#" class="nav-link">
+                                <img src="../imgs/icones/oficinas.png" class="nav-img">
+                                Oficinas</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a href="p_voluntario.html" class="nav-link">
+                                <img src="../imgs/icones/voluntarios.png" class="nav-img">
+                                Voluntários</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a href="p_projeto_interbairros.html" class="nav-link">
+                                <img src="../imgs/icones/projeto-interbairros.png" class="nav-img">
+                                Projeto interbairros</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a href="#" class="nav-link">
+                                <img src="../imgs/icones/parceiros.png" class="nav-img">
+                                Parceiros</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a href="p_contato.html" class="nav-link">
+                                <img src="../imgs/icones/contato.png" class="nav-img">
+                                Contato</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
 
     <header class="text-center pagina-principal">
         <div class="container">
