@@ -52,3 +52,9 @@
     background-position: top center;
     height: 400px;
 }
+.p_palmeira_jucara{
+    background-image: url("/front-end/imgs/palmeira-jucara.jpg");
+    background-size: cover;
+    background-position: top center;
+    height: 400px;
+}
