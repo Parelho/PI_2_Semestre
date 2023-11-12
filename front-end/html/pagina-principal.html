@@ -11,12 +11,11 @@
     <title>Página Principal</title>
 </head>
 <body>
-    <nav class="navbar justify-content-start">
+    <nav class="navbar justify-content-start px-2">
         <button type="button" class="navbar-toggler me-3" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Usar navegador">
             <span class="navbar-toggler-icon"></span>
         </button>
         <a href="pagina-principal.html" class="navbar-brand h1 mb-0 d-flex align-items-center">
-            <img class="d-inline-block align-top me-2" src="../imgs/Logo.png" alt="Logo" width="50" height="50">
             <span class="ms-2">Missão Ambiental</span>
             <div class="navbar-nav d-flex flex-row h5">
                 <a href="p_voluntario.html" class="nav-link px-3 d-none d-lg-block">Voluntários</a>
@@ -120,13 +119,20 @@
         </div>
         </div>
     </div>
-    <footer class="text-center">
-        <h3>missaoambiental.org@gmail.com</h3>
-        <h3>Rua Moreira de Godói, o1 - Vila São José - São Paulo, SP</h3>
-        <h3>(11) 96677-6565</h3>
+    <footer>
+        <div class="row justify-content-between">
+            <div class="col-12 col-md-5 text-center borda-footer">
+                <img class="mb-4" src="../imgs/LogoFooter.png" alt="Logo" width="150" height="150">
+                <h2 class="mb-4">&copy; Missão Ambiental</h2>
+            </div>
+            <div class="col-12 col-md-6 text-start">
+                <h1 class="mb-5">Nossas Informações</h1>          
+                <h4 class="mb-4">missaoambiental.org@gmail.com</h4>
+                <h4 class="mb-4">Rua Moreira de Godói, 01 - Vila São José - São Paulo, SP</h4>
+                <h4>(11) 96677-6565</h4>
+            </div>
+        </div>
     </footer>
-
-    <script src="../js/navbar.js" defer></script>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" 
     integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous">

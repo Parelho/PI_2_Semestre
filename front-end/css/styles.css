@@ -31,10 +31,11 @@ body {
 }
 
 footer {
-    background-color: #555555;
+    background-color: #1C1C1E;
     color: #FFFFFF;
     padding: 20px;
     margin-top: 100px;
+    border-bottom: 5px solid #bbdc74;
 }
 
 .abelha-imagem-padrao {
@@ -66,6 +67,27 @@ footer {
 }
 
 .navbar {
+    background: #bbdc74;
     padding-bottom: 0;
     margin-bottom: 0;
+}
+
+.navbar-toggler {
+    border: none
+    
+}
+
+@media (min-width: 768px) {
+    .borda-footer {
+        border-right: 2px solid #FFFFFF;
+        border-bottom: none;
+    }
+}
+
+@media (max-width: 767px) {
+    .borda-footer {
+        border-right: none;
+        border-bottom: 2px solid #FFFFFF;
+        margin-bottom: 20px;
+    }
 }
