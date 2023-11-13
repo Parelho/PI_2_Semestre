@@ -38,8 +38,8 @@ footer {
     border-bottom: 5px solid #bbdc74;
 }
 
-.abelha-imagem-padrao {
-    max-height: 200px;
+.imagem-padrao {
+    height: 200px;
     width: 270px;
 }
 
