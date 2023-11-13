@@ -4,11 +4,35 @@
     background-position: top center;
     height: 400px; 
 }
+.p_parceiros{
+    background-image: url("/front-end/imgs/parceiros_header.jpg");
+    background-size: cover;
+    background-position: top center;
+    height: 400px; 
+}
+.p_agroecologia{
+    background-image: url("/front-end/imgs/agroecologia_header.jpg");
+    background-size: cover;
+    background-position: top center;
+    height: 400px; 
+}
+.p_contatos{
+    background-image: url("/front-end/imgs/contato_header.jpg");
+    background-size: cover;
+    background-position: top center;
+    height: 400px;  
+}
 .p_abelhas{
     background-image: url("/front-end/imgs/abelhas_header.jpg");
     background-size: cover;
     background-position: top center;
     height: 400px;  
+}
+.p_jabuticaba{
+    background-image: url("/front-end/imgs/jabuticaba_header.jpg");
+    background-size: cover;
+    background-position: top center;
+    height: 400px; 
 }
 .p_propagacao_cambucizeiros{
     background-image: url("/front-end/imgs/cambucizeiro_header.jpg");
@@ -28,27 +52,33 @@
     background-position: top center;
     height: 400px; 
 }
-.p_voluntario{
-    background-image: url("/imgs/p_voluntario.jpg");
+.p_materiais_reciclaveis{
+    background-image: url("/front-end/imgs/materiais_reciclaveis_header.jpeg");
     background-size: cover;
     background-position: top center;
-    height: 400px; 
+    height: 400px;  
 }
-.p_uvaia{
-    background-image: url("/imgs/fundo_titulo_plantas.jpg");
+.p_voluntario{
+    background-image: url("/front-end/imgs/p_voluntario.jpg");
     background-size: cover;
     background-position: top center;
-    height: 400px; 
+    height: 400px;
 }
 .p_palmeira_jucara{
-    background-image: url("/imgs/fundo_titulo_plantas.jpg");
+    background-image: url("/front-end/imgs/palmeira-jucara.jpg");
     background-size: cover;
     background-position: top center;
-    height: 400px; 
+    height: 400px;
 }
-.p_materiais_reciclaveis{
-    background-image: url("/imgs/materiais-reciclaveis/capa.jpeg");
+.p_uvaia{
+    background-image: url("/front-end/imgs/uvaia.jpg");
     background-size: cover;
     background-position: top center;
-    height: 400px; 
+    height: 400px;
+}
+.p_oficinas{
+    background-image: url("/front-end/imgs/oficinas_header.jpg");
+    background-size: cover;
+    background-position: top center;
+    height: 400px;
 }
