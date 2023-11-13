@@ -64,3 +64,9 @@
     background-position: top center;
     height: 400px;
 }
+.p_oficinas{
+    background-image: url("/front-end/imgs/oficinas_header.jpg");
+    background-size: cover;
+    background-position: top center;
+    height: 400px;
+}
