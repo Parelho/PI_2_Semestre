@@ -4,6 +4,12 @@
     background-position: top center;
     height: 400px; 
 }
+.p_parceiros{
+    background-image: url("/front-end/imgs/parceiros_header.jpg");
+    background-size: cover;
+    background-position: top center;
+    height: 400px; 
+}
 .p_agroecologia{
     background-image: url("/front-end/imgs/agroecologia_header.jpg");
     background-size: cover;
