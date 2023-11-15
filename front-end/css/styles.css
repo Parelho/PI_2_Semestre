@@ -50,6 +50,27 @@ footer {
     font-size: x-large;
 }
 
+#grafico{  
+    border: 3px solid rgb(131, 167, 120);
+    border-radius: 15px;
+}
+.link-button {
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.link-button:hover {
+    background-color: #07720c;
+}
+
 .nav-img {
     width: 40px;
     height: auto;
