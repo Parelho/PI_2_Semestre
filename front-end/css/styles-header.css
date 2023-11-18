@@ -1,8 +1,26 @@
-.pagina-angico-vermelho{
+.p_angico_vermelho{
     background-image: url("/front-end/imgs/angico-vermelho-header.jpg");
     background-size: cover;
     background-position: top center;
     height: 400px; 
+}
+.p_chico_pires{
+    background-image: url("/front-end/imgs/chico_pires_header.jpg");
+    background-size: cover;
+    background-position: top center;
+    height: 400px; 
+}
+.p_manaca_da_serra{
+    background-image: url("/front-end/imgs/manaca_da_serra_header.png");
+    background-size: cover;
+    background-position: top center;
+    height: 400px;
+}
+.p_araca_roxo{
+    background-image: url("/front-end/imgs/araca_roxo_header.jpg");
+    background-size: cover;
+    background-position: top center;
+    height: 400px;
 }
 .p_compostagem{
     background-image: url("/front-end/imgs/compostagem_header.jpg");
