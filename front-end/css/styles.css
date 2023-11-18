@@ -116,3 +116,7 @@ footer {
 .border-top {
     border-top:var(--bs-border-style) #1C1C1E!important;
 }
+
+.footer-logo{
+    text-decoration: none;
+}
