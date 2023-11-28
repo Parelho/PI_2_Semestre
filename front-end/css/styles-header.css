@@ -10,6 +10,12 @@
     background-position: top center;
     height: 400px; 
 }
+.p_araca_boi{
+    background-image: url("/front-end/imgs/araca_boi_header.jpg");
+    background-size: cover;
+    background-position: top center;
+    height: 400px;
+}
 .p_chico_pires{
     background-image: url("/front-end/imgs/chico_pires_header.jpg");
     background-size: cover;
