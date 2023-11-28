@@ -10,6 +10,12 @@
     background-position: top center;
     height: 400px; 
 }
+.p_jatoba{
+    background-image: url("/front-end/imgs/jatoba_header.jpg");
+    background-size: cover;
+    background-position: top center;
+    height: 400px;
+}
 .p_araucaria{
     background-image: url("/front-end/imgs/araucaria_header.jpg");
     background-size: cover;
