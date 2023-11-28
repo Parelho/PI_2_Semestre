@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="pt">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+            crossorigin="anonymous">
+        <link rel="stylesheet" href="/front-end/css/styles-header.css">
+        <link rel="stylesheet" href="/front-end/css/styles.css">
+
+        <title>Especies Nativas</title>
+    </head>
+    <body>
+        <style>
+            .c-item {
+                margin-top: 25px;
+                background:#777;
+                height: 450px;
+            }
+            .c-img {
+                height: 100%;
+                width: 50px;
+                object-fit: cover;
+                filter: opacity(0.5);
+            }
+        </style>
+
+
+        <nav class="navbar justify-content-start px-0">
+            <button type="button" class="navbar-toggler me-3" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Botão de acesso a todas as páginas">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a href="pagina-principal.html" class="navbar-brand h1 mb-0 d-flex align-items-center">
+                <span class="ms-2">Missão Ambiental</span>
+                <div class="navbar-nav d-flex flex-row h5">
+                    <a href="p_voluntario.html" class="nav-link px-3 d-none d-lg-block">Voluntários</a>
+                    <a href="p_oficinas.html" class="nav-link px-3 d-none d-lg-block">Oficinas</a>
+                    <a href="p_projeto_interbairros.html" class="nav-link px-3 d-none d-lg-block">Projeto Interbairros</a>
+                    <a href="p_contato.html" class="nav-link px-3 d-none d-lg-block">Contato</a>
+                </div>
+            </a>
+
+            <div class="row col-12 h4 justify-content-around border-top mx-0 mt-1 mb-0">
+                <div class="col-12 col-md-4">
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <div class="navbar-nav">
+                            <a href="p_compostagem.html" class="nav-link me-auto">
+                                <img src="../imgs/icones/compostagem.png" class="nav-img">
+                                Compostagem comunitária</a>
+                            <a href="p_abelhas.html" class="nav-link me-auto">
+                                <img src="../imgs/icones/abelhas.png" class="nav-img">
+                                Abelhas nativas sem ferrão</a>
+                            <a href="p_captacao_agua.html" class="nav-link me-auto">
+                                <img src="../imgs/icones/captacao-de-agua.png" class="nav-img">
+                                Captação de água da chuva</a>
+                            <a href="p_materiais_reciclaveis.html" class="nav-link me-auto">
+                                <img src="../imgs/icones/materiais-reciclaveis.png" class="nav-img">
+                                Materiais reciclaveis</a>
+                            <a href="/front-end/html/p_especies_nativas.html" class="nav-link me-auto">
+                                <img src="../imgs/icones/especies-nativas.png" class="nav-img">
+                                Especies nativas</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">                
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <div class="navbar-nav">
+                            <a href="p_oficinas.html" class="nav-link me-auto">
+                                <img src="../imgs/icones/oficinas.png" class="nav-img">
+                                Oficinas</a>
+                            <a href="p_voluntario.html" class="nav-link me-auto">
+                                <img src="../imgs/icones/voluntarios.png" class="nav-img">
+                                Voluntários</a>
+                            <a href="p_projeto_interbairros.html" class="nav-link me-auto">
+                                <img src="../imgs/icones/projeto-interbairros.png" class="nav-img">
+                                Projeto interbairros</a>
+                            <a href="p_parceiros.html" class="nav-link me-auto">
+                                <img src="../imgs/icones/parceiros.png" class="nav-img">
+                                Parceiros</a>
+                            <a href="p_contato.html" class="nav-link me-auto">
+                                <img src="../imgs/icones/contato.png" class="nav-img">
+                                Contato</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+
+        <div class="row">
+            <header class="text-center p_especies_nativas">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <h1 class="texto-titulo">Especies Nativas</h1>
+                        </div>
+                    </div>
+                </div>
+            </header>
+        </div>
+
+        <div id="myCarousel" class="carousel slide">
+            
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            
+            <div class="carousel-inner">
+              <div class="carousel-item active c-item">
+                <img src="/front-end/imgs/especies_nativas/Jaracatia.jpg" class="d-block w-100 c-img" alt="...">
+                <div class="carousel-caption top-0 mt-4">
+                    <h1 class=" display-1 fw-bolder text-capitalize">Jaracatiá</h1>
+                    <h5 class="mt-5 fs-3">Jaracatiá pertencente a família do mamão. Tambem conhecida como “Mamão-Bravo”.</h5>
+                    <button class="btn btn-primary px-4 py-2 fs-5 mt-5">Saiba Mais</button>
+                  </div>
+              </div>
+              <div class="carousel-item c-item">
+                <img src="/front-end/imgs/especies_nativas/Jequitibá Branco.jpg" class="d-block w-100 c-img" alt="...">
+              </div>
+              <div class="carousel-item c-item">
+                <img src="/front-end/imgs/especies_nativas/cambuci.png" class="d-block w-100 c-img" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+        <footer>
+            <div class="row justify-content-around">
+                <div class="col-12 col-md-2 text-center borda-footer">
+                    <img class="mb-4" src="../imgs/LogoFooter.png" alt="Logo" width="100" height="100">
+                    <h5>&copy; Missão Ambiental</h5>
+                </div>
+                <div class="col-12 col-md-5 text-center borda-footer">
+                    <h2 class="mb-4">Nossas Informações</h2>          
+                    <h5 class="mb-2">missaoambiental.org@gmail.com</h5>
+                    <h5 class="mb-2">Rua Moreira de Godói, 01 - Vila São José - São Paulo, SP</h5>
+                    <h5>(11) 96677-6565</h5>
+                </div>
+                <div class="col-12 col-md-5 text-center">
+                    <h2 class="mb-4">Nossas Redes Sociais</h2>
+                    <a class="me-5 footer-logo" href="https://www.instagram.com/missao.ambiental">
+                        <img src="/front-end/imgs/instagram_logo.png" alt="facebook logo" , width="75px">
+                    </a>
+                    <a class="ms-5 footer-logo" href="https://www.facebook.com/missaoambiental.org">
+                        <img src="/front-end/imgs/facebook_logo.png" alt="facebook logo" , width="75px">
+                    </a>
+                </div>
+            </div>
+        </footer>
+    
+        <!--Trecho que adiciona Libras no site: --> 
+        <div vw class="enabled">
+            <div vw-access-button class="active"></div>
+            <div vw-plugin-wrapper>
+              <div class="vw-plugin-top-wrapper"></div>
+            </div>
+          </div>
+          <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+        <script>
+            new window.VLibras.Widget({
+                rootPah: '/app',
+                personalization: 'https://vlibras.gov.br/config/default_logo.json',
+                opacity: 0.5,
+                position: 'R',
+                avatar: 'random',
+            });
+        </script>
+        
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+            crossorigin="anonymous"></script>
+    </body>
+</html>

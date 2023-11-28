@@ -118,3 +118,9 @@
     background-position: top center;
     height: 400px;
 }
+.p_especies_nativas{
+    background-image: url("/front-end/imgs/especies_nativas_header.jpg");
+    background-size: cover;
+    background-position: top center;
+    height: 400px;
+}
