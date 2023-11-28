@@ -106,6 +106,12 @@
     background-position: top center;
     height: 400px;
 }
+.p_jaracatia{
+    background-image: url("/front-end/imgs/jaracatia.jpg");
+    background-size: cover;
+    background-position: top center;
+    height: 400px;
+}
 .p_uvaia{
     background-image: url("/front-end/imgs/uvaia.jpg");
     background-size: cover;
