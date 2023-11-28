@@ -4,6 +4,12 @@
     background-position: top center;
     height: 400px; 
 }
+.p_fruto_do_sabia{
+    background-image: url("/front-end/imgs/fruto_do_sabia_header.jpg");
+    background-size: cover;
+    background-position: top center;
+    height: 400px; 
+}
 .p_embauba_prateada{
     background-image: url("/front-end/imgs/embauba_prateada_header.jpg");
     background-size: cover;
