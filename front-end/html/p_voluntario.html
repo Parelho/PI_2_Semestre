@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <title>Voluntário</title>
@@ -9,9 +10,27 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 </head>
+
 <body>
+    
+    <style> 
+        a img { /*estilo pra mudar o brilho da imagem quando passar com o mouse por cima do "forms" */
+            transition: filter 0.3s ease;
+        }
+        a:hover img {
+            filter: brightness(80%); 
+        }
+        
+        #formulario{ /* tira o sublinhado e a cor azul do link do "formulário" do header*/
+            text-decoration: none; 
+            color: inherit; 
+            cursor: pointer; 
+        }
+    </style>
+
     <nav class="navbar justify-content-start px-0">
-        <button type="button" class="navbar-toggler me-3" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Botão de acesso a todas as páginas">
+        <button type="button" class="navbar-toggler me-3" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Botão de acesso a todas as páginas">
             <span class="navbar-toggler-icon"></span>
         </button>
         <a href="pagina-principal.html" class="navbar-brand h1 mb-0 d-flex align-items-center">
@@ -46,7 +65,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-md-4">                
+            <div class="col-12 col-md-4">
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <div class="navbar-nav">
                         <a href="p_oficinas.html" class="nav-link me-auto">
@@ -74,7 +93,8 @@
             <div class="row">
                 <div class="col-12">
                     <h1 class="texto-titulo">Voluntário</h1>
-                    <h4 class="texto-subtitulo">Quer participar dos projetos? Preencha o formulário abaixo que entraremos em contato com você.</h3>
+                    <h4 class="texto-subtitulo">Quer participar dos projetos? Preencha o <a id="formulario" href="https://forms.gle/73yivNp7ioP3SAZJ7" target="_blank">formulário</a> abaixo que
+                        entraremos em contato com você.</h3>
                 </div>
             </div>
         </div>
@@ -82,14 +102,26 @@
 
     <div class="container">
         <div class="row">
-            <div class="col-md-12 mt-5">
-                <h1 class="titulos">Missão do Projeto:</h1>
-            </div>
-            <div class="container">
+            <div class="col-md-6"> 
                 <div class="row">
-                    <div class="col-md-6 mt-5">
-                        <h4><a href="https://forms.gle/73yivNp7ioP3SAZJ7">https://forms.gle/73yivNp7ioP3SAZJ7</a>
-                        </h4>
+                    <div class="mt-5">
+                        <h1 class="titulos">Missão do Projeto:</h1>
+                        <h5 class="titulos">Preencha o formulário e participe!!!</h5>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="mt-5">
+                        <a href="https://forms.gle/73yivNp7ioP3SAZJ7" target="_blank"> 
+                            <img src="/front-end/imgs/forms.png" alt="logo Google forms" width="150px"> 
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6"> 
+                <div class="mt-5">
+                    <h1 class="titulos">Dúvidas?</h1>
+                    <div class="mt-5">
+                        <h4>Acesse a aba <a href="/front-end/html/p_contato.html">Contatos</a> para maiores informações.</h4>
                     </div>
                 </div>
             </div>
@@ -97,16 +129,7 @@
     </div>
 
 
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12 mt-5">
-                <h1 class="titulos">Dúvidas?</h1>
-                <div class="col-md-12 mt-5">
-                    <h4>Acesse a aba "Contatos" para maiores informações.</h4>
-                </div>
-            </div>
-        </div>
-    </div>
+
 
     <footer>
         <div class="row justify-content-around">
@@ -115,7 +138,7 @@
                 <h5>&copy; Missão Ambiental</h5>
             </div>
             <div class="col-12 col-md-5 text-center borda-footer">
-                <h2 class="mb-4">Nossas Informações</h2>          
+                <h2 class="mb-4">Nossas Informações</h2>
                 <h5 class="mb-2">missaoambiental.org@gmail.com</h5>
                 <h5 class="mb-2">Rua Moreira de Godói, 01 - Vila São José - São Paulo, SP</h5>
                 <h5>(11) 96677-6565</h5>
@@ -132,15 +155,15 @@
         </div>
     </footer>
 
-    <!--Trecho que adiciona Libras no site: --> 
+    <!--Trecho que adiciona Libras no site: -->
     <div vw class="enabled">
         <div vw-access-button class="active"></div>
         <div vw-plugin-wrapper>
-          <div class="vw-plugin-top-wrapper"></div>
+            <div class="vw-plugin-top-wrapper"></div>
         </div>
-      </div>
-      <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
-      <script>
+    </div>
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script>
         new window.VLibras.Widget({
             rootPah: '/app',
             personalization: 'https://vlibras.gov.br/config/default_logo.json',
@@ -148,11 +171,12 @@
             position: 'R',
             avatar: 'random',
         });
-      </script>
+    </script>
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
         crossorigin="anonymous"></script>
 </body>
+
 </html>
