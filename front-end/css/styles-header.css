@@ -4,6 +4,12 @@
     background-position: top center;
     height: 400px; 
 }
+.p_aroeira_pimenteira{
+    background-image: url("/front-end/imgs/aroeira_pimenteira_header.jpg");
+    background-size: cover;
+    background-position: top center;
+    height: 400px;
+}
 .p_dedaleiro{
     background-image: url("/front-end/imgs/dedaleiro_header.jpg");
     background-size: cover;
