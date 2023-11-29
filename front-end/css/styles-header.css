@@ -4,6 +4,12 @@
     background-position: top center;
     height: 400px; 
 }
+.p_taruma{
+    background-image: url("/front-end/imgs/taruma_header.jpeg");
+    background-size: cover;
+    background-position: top center;
+    height: 400px;
+}
 .p_guabiraba{
     background-image: url("/front-end/imgs/guabiroba_header.jpg");
     background-size: cover;
