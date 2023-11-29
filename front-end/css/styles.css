@@ -50,8 +50,8 @@ footer {
     font-size: x-large;
 }
 
-#grafico{  
-    border: 3px solid rgb(131, 167, 120);
+#borda{  
+    border: 3px solid #007427;
     border-radius: 15px;
 }
 .link-button {
