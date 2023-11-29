@@ -150,7 +150,7 @@
     height: 400px;
 }
 .p_compostagem{
-    background-image: url("/front-end/imgs/compostagem_header.jpg");
+    background-image: url("/front-end/imgs/compostagem_header\(brilho_reduzido\).jpg");
     background-size: cover;
     background-position: top center;
     height: 400px; 
