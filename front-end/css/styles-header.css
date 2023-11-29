@@ -10,6 +10,12 @@
     background-position: top center;
     height: 400px;
 }
+.p_dormideira{
+    background-image: url("/front-end/imgs/dormideira_header.jpg");
+    background-size: cover;
+    background-position: top center;
+    height: 400px;
+}
 .p_orelha_de_onca{
     background-image: url("/front-end/imgs/orelha_de_onca_header.jpg");
     background-size: cover;
