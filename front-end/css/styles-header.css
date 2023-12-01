@@ -2,49 +2,67 @@
     background-image: url("/front-end/imgs/angico-vermelho-header.jpg");
     background-size: cover;
     background-position: top center;
-    height: 400px; 
+    height: 400px;
+    filter: brightness(0) invert(1);
+    filter: opacity(0.75);
+    filter: brightness(0) invert(1);
+    filter: opacity(0.75);
 }
 .p_cereja_do_rio_grande{
     background-image: url("/front-end/imgs/cereja_do_rio_grande_header.jpg");
     background-size: cover;
     background-position: top center;
     height: 400px;
+    filter: brightness(0) invert(1);
+    filter: opacity(0.75);
 }
 .p_flor_do_guaruja{
     background-image: url("/front-end/imgs/flor_do_guaruja_header.jpg");
     background-size: cover;
     background-position: top center;
     height: 400px;
+    filter: brightness(0) invert(1);
+    filter: opacity(0.75);
 }
 .p_aroeira_pimenteira{
     background-image: url("/front-end/imgs/aroeira_pimenteira_header.jpg");
     background-size: cover;
     background-position: top center;
     height: 400px;
+    filter: brightness(0) invert(1);
+    filter: opacity(0.75);
 }
 .p_dedaleiro{
     background-image: url("/front-end/imgs/dedaleiro_header.jpg");
     background-size: cover;
     background-position: top center;
     height: 400px;
+    filter: brightness(0) invert(1);
+    filter: opacity(0.75);
 }
 .p_dormideira{
     background-image: url("/front-end/imgs/dormideira_header.jpg");
     background-size: cover;
     background-position: top center;
     height: 400px;
+    filter: brightness(0) invert(1);
+    filter: opacity(0.75);
 }
 .p_orelha_de_onca{
     background-image: url("/front-end/imgs/orelha_de_onca_header.jpg");
     background-size: cover;
     background-position: top center;
     height: 400px;
+    filter: brightness(0) invert(1);
+    filter: opacity(0.75);
 }
 .p_pau_jacare{
     background-image: url("/front-end/imgs/pau_jacare_header.jpg");
     background-size: cover;
     background-position: top center;
     height: 400px;
+    filter: brightness(0) invert(1);
+    filter: opacity(0.75);
 }
 
 .p_aldrago{
@@ -52,208 +70,278 @@
     background-size: cover;
     background-position: top center;
     height: 400px;
+    filter: brightness(0) invert(1);
+    filter: opacity(0.75);
 }
 .p_bacupari{
     background-image: url("/front-end/imgs/bacupari_header.jpg");
     background-size: cover;
     background-position: top center;
     height: 400px;
+    filter: brightness(0) invert(1);
+    filter: opacity(0.75);
 }
 .p_taruma{
     background-image: url("/front-end/imgs/taruma_header.jpeg");
     background-size: cover;
     background-position: top center;
     height: 400px;
+    filter: brightness(0) invert(1);
+    filter: opacity(0.75);
 }
 .p_guabiraba{
     background-image: url("/front-end/imgs/guabiroba_header.jpg");
     background-size: cover;
     background-position: top center;
     height: 400px;
+    filter: brightness(0) invert(1);
+    filter: opacity(0.75);
 }
 .p_grumixama{
     background-image: url("/front-end/imgs/grumixama_header.jpeg");
     background-size: cover;
     background-position: top center;
-    height: 400px; 
+    height: 400px;
+    filter: brightness(0) invert(1);
+    filter: opacity(0.75);
 }
 .p_inga_do_brejo{
     background-image: url("/front-end/imgs/inga_do_brejo_header.jpg");
     background-size: cover;
     background-position: top center;
-    height: 400px; 
+    height: 400px;
+    filter: brightness(0) invert(1);
+    filter: opacity(0.75);
 }
 .p_tabocuva{
     background-image: url("/front-end/imgs/tabocuva_header.jpg");
     background-size: cover;
     background-position: top center;
     height: 400px;
+    filter: brightness(0) invert(1);
+    filter: opacity(0.75);
 }
 .p_maracuja_roxo{
     background-image: url("/front-end/imgs/maracuja_roxo_header.jpg");
     background-size: cover;
     background-position: top center;
-    height: 400px; 
+    height: 400px;
+    filter: brightness(0) invert(1);
+    filter: opacity(0.75);
 }
 .p_saragui_amarelo{
     background-image: url("/front-end/imgs/saragui_amarelo_header.jpg");
     background-size: cover;
     background-position: top center;
     height: 400px;
+    filter: brightness(0) invert(1);
+    filter: opacity(0.75);
 }
 .p_jatoba{
     background-image: url("/front-end/imgs/jatoba_header.jpg");
     background-size: cover;
     background-position: top center;
     height: 400px;
+    filter: brightness(0) invert(1);
+    filter: opacity(0.75);
 }
 .p_araucaria{
     background-image: url("/front-end/imgs/araucaria_header.jpg");
     background-size: cover;
     background-position: top center;
     height: 400px;
+    filter: brightness(0) invert(1);
+    filter: opacity(0.75);
 }
 .p_fruto_do_sabia{
     background-image: url("/front-end/imgs/fruto_do_sabia_header.jpg");
     background-size: cover;
     background-position: top center;
-    height: 400px; 
+    height: 400px;
+    filter: brightness(0) invert(1);
+    filter: opacity(0.75);
 }
 .p_embauba_prateada{
     background-image: url("/front-end/imgs/embauba_prateada_header.jpg");
     background-size: cover;
     background-position: top center;
-    height: 400px; 
+    height: 400px;
+    filter: brightness(0) invert(1);
+    filter: opacity(0.75);
 }
 .p_araca_boi{
     background-image: url("/front-end/imgs/araca_boi_header.jpg");
     background-size: cover;
     background-position: top center;
     height: 400px;
+    filter: brightness(0) invert(1);
+    filter: opacity(0.75);
 }
 .p_chico_pires{
     background-image: url("/front-end/imgs/chico_pires_header.jpg");
     background-size: cover;
     background-position: top center;
-    height: 400px; 
+    height: 400px;
+    filter: brightness(0) invert(1);
+    filter: opacity(0.75);
 }
 .p_manaca_da_serra{
     background-image: url("/front-end/imgs/manaca_da_serra_header.png");
     background-size: cover;
     background-position: top center;
     height: 400px;
+    filter: brightness(0) invert(1);
+    filter: opacity(0.75);
 }
 .p_araca_roxo{
     background-image: url("/front-end/imgs/araca_roxo_header.jpg");
     background-size: cover;
     background-position: top center;
     height: 400px;
+    filter: brightness(0) invert(1);
+    filter: opacity(0.75);
 }
 .p_compostagem{
     background-image: url("/front-end/imgs/compostagem_header\(brilho_reduzido\).jpg");
     background-size: cover;
     background-position: top center;
-    height: 400px; 
+    height: 400px;
+    filter: brightness(0) invert(1);
+    filter: opacity(0.75);
 }
 .p_captacao_agua{
     background-image: url("/front-end/imgs/captacao_chuva_header.jpg");
     background-size: cover;
     background-position: top center;
     height: 400px;
+    filter: brightness(0) invert(1);
+    filter: opacity(0.75);
 }
 .p_parceiros{
     background-image: url("/front-end/imgs/parceiros_header.jpg");
     background-size: cover;
     background-position: top center;
-    height: 400px; 
+    height: 400px;
+    filter: brightness(0) invert(1);
+    filter: opacity(0.75);
 }
 .p_agroecologia{
     background-image: url("/front-end/imgs/agroecologia_header.jpg");
     background-size: cover;
     background-position: top center;
-    height: 400px; 
+    height: 400px;
+    filter: brightness(0) invert(1);
+    filter: opacity(0.75);
 }
 .p_contatos{
     background-image: url("/front-end/imgs/contato_header.jpg");
     background-size: cover;
     background-position: top center;
-    height: 400px;  
+    height: 400px;
+    filter: brightness(0) invert(1);
+    filter: opacity(0.75); 
 }
 .p_abelhas{
     background-image: url("/front-end/imgs/abelhas_header.jpg");
     background-size: cover;
     background-position: top center;
-    height: 400px;  
+    height: 400px;
+    filter: brightness(0) invert(1);
+    filter: opacity(0.75); 
 }
 .p_jabuticaba{
     background-image: url("/front-end/imgs/jabuticaba_header.jpg");
     background-size: cover;
     background-position: top center;
-    height: 400px; 
+    height: 400px;
+    filter: brightness(0) invert(1);
+    filter: opacity(0.75);
 }
 .p_propagacao_cambucizeiros{
     background-image: url("/front-end/imgs/cambucizeiro_header.jpg");
     background-size: cover;
     background-position: top center;
     height: 400px;
+    filter: brightness(0) invert(1);
+    filter: opacity(0.75);
 }
 .p_projeto_interbairros{
     background-image: url("/front-end/imgs/projeto_interbairros_header.jpg");
     background-size: cover;
     background-position: top center;
-    height: 400px; 
+    height: 400px;
+    filter: brightness(0) invert(1);
+    filter: opacity(0.75);
 }
 .pagina-principal{
     background-image: url("/front-end/imgs/pagina-principal.png");
     background-size: cover;
     background-position: top center;
-    height: 400px; 
+    height: 400px;
+    filter: brightness(0) invert(1);
+    filter: opacity(0.75);
 }
 .p_materiais_reciclaveis{
     background-image: url("/front-end/imgs/materiais_reciclaveis_header.jpeg");
     background-size: cover;
     background-position: top center;
-    height: 400px;  
+    height: 400px;
+    filter: brightness(0) invert(1);
+    filter: opacity(0.75); 
 }
 .p_voluntario{
     background-image: url("/front-end/imgs/p_voluntario.jpg");
     background-size: cover;
     background-position: top center;
     height: 400px;
+    filter: brightness(0) invert(1);
+    filter: opacity(0.75);
 }
 .p_palmeira_jucara{
     background-image: url("/front-end/imgs/palmeira-jucara.jpg");
     background-size: cover;
     background-position: top center;
     height: 400px;
+    filter: brightness(0) invert(1);
+    filter: opacity(0.75);
 }
 .p_jaracatia{
     background-image: url("/front-end/imgs/jaracatia.jpg");
     background-size: cover;
     background-position: top center;
     height: 400px;
+    filter: brightness(0) invert(1);
+    filter: opacity(0.75);
 }
 .p_jequitiba_branco{
     background-image: url("/front-end/imgs/jequitiba_branco2.jpg");
     background-size: cover;
     background-position: top center;
     height: 400px;
+    filter: brightness(0) invert(1);
+    filter: opacity(0.75);
 }
 .p_uvaia{
     background-image: url("/front-end/imgs/uvaia.jpg");
     background-size: cover;
     background-position: top center;
     height: 400px;
+    filter: brightness(0) invert(1);
+    filter: opacity(0.75);
 }
 .p_oficinas{
     background-image: url("/front-end/imgs/oficinas_header.jpg");
     background-size: cover;
     background-position: top center;
     height: 400px;
+    filter: brightness(0) invert(1);
+    filter: opacity(0.75);
 }
 .p_especies_nativas{
     background-image: url("/front-end/imgs/especies_nativas_header.jpg");
     background-size: cover;
     background-position: top center;
     height: 400px;
+    filter: brightness(0) invert(1);
+    filter: opacity(0.75);
 }
