@@ -422,8 +422,8 @@
                     <img src="/front-end/imgs/especies_nativas/Orelha-de-Onça.png" class="d-block w-100 c-img" alt="...">
                     <div class="carousel-caption top-0 mt-4">
                         <h1 class=" display-1 fw-bolder text-capitalize">Orelha-de-Onça</h1>
-                        <h5 class="mt-5 fs-3">Na cultura popular, as raízes são usadas em chás contra diversos males dos pulmões, mas 
-                            pesquisas realizadas provaram também a eficácia das folhas contra a inflamação e o 
+                        <h5 class="mt-5 fs-3">As raízes são usadas em chás contra diversos males dos pulmões, 
+                            pesquisas realizadas provam também a eficácia das folhas contra a inflamação e o 
                             broncoespasmo característicos da asma.</h5>
                         <a href="/front-end/html/p_orelha_de_onca.html">
                             <button class="btn btn-primary px-4 py-2 fs-5 mt-5">Saiba Mais</button>
@@ -490,7 +490,7 @@
                     <img src="/front-end/imgs/especies_nativas/Cereja-do-Rio-Grande.png" class="d-block w-100 c-img" alt="...">
                     <div class="carousel-caption top-0">
                         <h1 class=" display-1 fw-bolder text-capitalize">Cereja-do-Rio-Grande</h1>
-                        <h5 class="mt-5 fs-3">Possui propriedades terapêuticas, como ação anti-inflamatória, antialérgica, antioxidante e gastroprotetora. É fonte de triptofano, serotonina e melatonina, contribuindo para melhorar o sono, humor e auxiliar no combate à depressão e insônia.</h5>
+                        <h5 class="mt-5 fs-3">Possui propriedades terapêuticas, como ação anti-inflamatória, antialérgica, antioxidante e gastroprotetora. É fonte de triptofano, serotonina e melatonina, auxilia no combate à depressão e insônia.</h5>
                         <a href="/front-end/html/p_cereja_do_rio_grande.html">
                             <button class="btn btn-primary px-4 py-2 fs-5 ">Saiba Mais</button>
                         </a>
@@ -557,21 +557,25 @@
         
         <!-- aumenta a altura do carrossel para caber todos os tamanhos de texto -->
         <script>
-            window.addEventListener('resize', function () {
-                //  largura da tela
+            function updateCarouselHeight() {
                 var screenWidth = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
                 var cItems = document.querySelectorAll('.c-item');
     
+                // Itera sobre todos os elementos c-item e ajusta a altura
                 cItems.forEach(function (cItem) {
                     // altura com base na largura da tela
                     if (screenWidth < 450) {
                         cItem.style.height = '600px';
+                    } else if (screenWidth < 800) {
+                        cItem.style.height = '550px';
                     } else {
                         cItem.style.height = '450px';
                     }
                 });
-            });
-            window.dispatchEvent(new Event('resize'));
+            }
+            window.addEventListener('resize', updateCarouselHeight);
+            // Função para definir a altura inicial
+            updateCarouselHeight();
         </script>
 
 
