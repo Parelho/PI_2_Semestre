@@ -488,13 +488,11 @@
                 </div>
                 <div class="carousel-item c-item">
                     <img src="/front-end/imgs/especies_nativas/Cereja-do-Rio-Grande.png" class="d-block w-100 c-img" alt="...">
-                    <div class="carousel-caption top-0 mt-4">
+                    <div class="carousel-caption top-0">
                         <h1 class=" display-1 fw-bolder text-capitalize">Cereja-do-Rio-Grande</h1>
-                        <h5 class="mt-5 fs-3">Como propriedades terapêuticas é anti-inflamatória, antialérgica, antioxidante, antidiarreica e 
-                            gastroprotetor. Fonte de triptofano, serotonina e melatonina, a cereja melhora o 
-                            sono e o humor, sendo um alimento que ajuda a combater a depressão e a insônia.</h5>
+                        <h5 class="mt-5 fs-3">Possui propriedades terapêuticas, como ação anti-inflamatória, antialérgica, antioxidante e gastroprotetora. É fonte de triptofano, serotonina e melatonina, contribuindo para melhorar o sono, humor e auxiliar no combate à depressão e insônia.</h5>
                         <a href="/front-end/html/p_cereja_do_rio_grande.html">
-                            <button class="btn btn-primary px-4 py-2 fs-5 mt-5">Saiba Mais</button>
+                            <button class="btn btn-primary px-4 py-2 fs-5 ">Saiba Mais</button>
                         </a>
                     </div>
                 </div>
@@ -557,6 +555,26 @@
             });
         </script>
         
+        <!-- aumenta a altura do carrossel para caber todos os tamanhos de texto -->
+        <script>
+            window.addEventListener('resize', function () {
+                //  largura da tela
+                var screenWidth = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
+                var cItems = document.querySelectorAll('.c-item');
+    
+                cItems.forEach(function (cItem) {
+                    // altura com base na largura da tela
+                    if (screenWidth < 450) {
+                        cItem.style.height = '600px';
+                    } else {
+                        cItem.style.height = '450px';
+                    }
+                });
+            });
+            window.dispatchEvent(new Event('resize'));
+        </script>
+
+
         <script
             src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
             integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
