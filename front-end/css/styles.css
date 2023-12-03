@@ -1,4 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400&family=Rubik+Bubbles&display=swap');
+
 body {
+    font-family: 'Inter', sans-serif;
     background: #ffffff;
     margin: 0;
     padding: 0;
@@ -16,11 +20,13 @@ body {
 }
 
 .texto-titulo {
+    font-family: 'Ubuntu', sans-serif;
     text-align: center;
     color: #FFFFFF;
 }
 
 .texto-subtitulo {
+    font-family: 'Ubuntu', sans-serif;
     font-style: italic;
     text-align: center;
     color: #FFFFFF;
