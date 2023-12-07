@@ -54,6 +54,11 @@ footer {
     width: 270px;
 }
 
+.imagem-creditos {
+    height: 400px;
+    width: 500px;
+}
+
 .titulo-padrao{ /* antigo titulo-nome-abelha*/
     font-weight: bold;
     font-family:Arial, Helvetica, sans-serif;
