@@ -9,7 +9,7 @@
     filter: opacity(0.75);
 }
 .p_cereja_do_rio_grande{
-    background-image: url("/front-end/imgs/cereja_do_rio_grande_header.jpg");
+    background-image: url("/front-end/imgs/especies_nativas/cereja-do-rio-grande.jpg");
     background-size: cover;
     background-position: top center;
     height: 400px;
@@ -17,7 +17,7 @@
     filter: opacity(0.75);
 }
 .p_flor_do_guaruja{
-    background-image: url("/front-end/imgs/flor_do_guaruja_header.jpg");
+    background-image: url("/front-end/imgs/especies_nativas/flor-do-guaruja.jpg");
     background-size: cover;
     background-position: top center;
     height: 400px;
@@ -25,7 +25,7 @@
     filter: opacity(0.75);
 }
 .p_aroeira_pimenteira{
-    background-image: url("/front-end/imgs/aroeira_pimenteira_header.jpg");
+    background-image: url("/front-end/imgs/especies_nativas/aroeira-pimenteira.jpg");
     background-size: cover;
     background-position: top center;
     height: 400px;
@@ -33,7 +33,7 @@
     filter: opacity(0.75);
 }
 .p_dedaleiro{
-    background-image: url("/front-end/imgs/dedaleiro_header.jpg");
+    background-image: url("/front-end/imgs/especies_nativas/dedaleiro.jpg");
     background-size: cover;
     background-position: top center;
     height: 400px;
@@ -41,7 +41,7 @@
     filter: opacity(0.75);
 }
 .p_dormideira{
-    background-image: url("/front-end/imgs/dormideira_header.jpg");
+    background-image: url("/front-end/imgs/especies_nativas/dormideira.jpg");
     background-size: cover;
     background-position: top center;
     height: 400px;
@@ -49,7 +49,7 @@
     filter: opacity(0.75);
 }
 .p_orelha_de_onca{
-    background-image: url("/front-end/imgs/orelha_de_onca_header.jpg");
+    background-image: url("/front-end/imgs/especies_nativas/orelha-de-onca.jpg");
     background-size: cover;
     background-position: top center;
     height: 400px;
@@ -57,7 +57,7 @@
     filter: opacity(0.75);
 }
 .p_pau_jacare{
-    background-image: url("/front-end/imgs/pau_jacare_header.jpg");
+    background-image: url("/front-end/imgs/especies_nativas/pau-jacare.jpg");
     background-size: cover;
     background-position: top center;
     height: 400px;
@@ -66,7 +66,7 @@
 }
 
 .p_aldrago{
-    background-image: url("/front-end/imgs/aldrago_header.jpg");
+    background-image: url("/front-end/imgs/especies_nativas/aldrago.jpg");
     background-size: cover;
     background-position: top center;
     height: 400px;
@@ -74,7 +74,7 @@
     filter: opacity(0.75);
 }
 .p_bacupari{
-    background-image: url("/front-end/imgs/bacupari_header.jpg");
+    background-image: url("/front-end/imgs/especies_nativas/bacupari.jpg");
     background-size: cover;
     background-position: top center;
     height: 400px;
@@ -82,7 +82,7 @@
     filter: opacity(0.75);
 }
 .p_taruma{
-    background-image: url("/front-end/imgs/taruma_header.jpeg");
+    background-image: url("/front-end/imgs/especies_nativas/taruma.jpg");
     background-size: cover;
     background-position: top center;
     height: 400px;
@@ -90,7 +90,7 @@
     filter: opacity(0.75);
 }
 .p_guabiraba{
-    background-image: url("/front-end/imgs/guabiroba_header.jpg");
+    background-image: url("/front-end/imgs/especies_nativas/guabiroba.jpg");
     background-size: cover;
     background-position: top center;
     height: 400px;
@@ -138,7 +138,7 @@
     filter: opacity(0.75);
 }
 .p_jatoba{
-    background-image: url("/front-end/imgs/jatoba_header.jpg");
+    background-image: url("/front-end/imgs/especies_nativas/jatoba.jpg");
     background-size: cover;
     background-position: top center;
     height: 400px;
