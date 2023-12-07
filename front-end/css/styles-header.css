@@ -98,7 +98,7 @@
     filter: opacity(0.75);
 }
 .p_grumixama{
-    background-image: url("/front-end/imgs/grumixama_header.jpeg");
+    background-image: url("/front-end/imgs/especies_nativas/grumixama-mirim.jpg");
     background-size: cover;
     background-position: top center;
     height: 400px;
@@ -129,8 +129,8 @@
     filter: brightness(0) invert(1);
     filter: opacity(0.75);
 }
-.p_saragui_amarelo{
-    background-image: url("/front-end/imgs/saragui_amarelo_header.jpg");
+.p_saraguaji_amarelo{
+    background-image: url("/front-end/imgs/especies_nativas/saraguaji.jpg");
     background-size: cover;
     background-position: top center;
     height: 400px;
@@ -290,7 +290,7 @@
     filter: opacity(0.75); 
 }
 .p_voluntario{
-    background-image: url("/front-end/imgs/p_voluntario.jpg");
+    background-image: url("/front-end/imgs/voluntario_header.jpg");
     background-size: cover;
     background-position: top center;
     height: 400px;
