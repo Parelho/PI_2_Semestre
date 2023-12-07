@@ -44,6 +44,11 @@ footer {
     border-bottom: 5px solid #bbdc74;
 }
 
+.oficinas-imagem-padrao{
+    height: 300px;
+    width: 300px;
+}
+
 .imagem-padrao {
     height: 200px;
     width: 270px;
