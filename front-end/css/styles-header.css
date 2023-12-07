@@ -1,7 +1,7 @@
 .p_angico_vermelho{
-    background-image: url("/front-end/imgs/angico-vermelho-header.jpg");
+    background-image: url("/front-end/imgs/especies_nativas/angico-vermelho.jpg");
     background-size: cover;
-    background-position: top center;
+    background-position: center;
     height: 400px;
     filter: brightness(0) invert(1);
     filter: opacity(0.75);
@@ -106,15 +106,15 @@
     filter: opacity(0.75);
 }
 .p_inga_do_brejo{
-    background-image: url("/front-end/imgs/inga_do_brejo_header.jpg");
+    background-image: url("/front-end/imgs/especies_nativas/inga-do-brejo.jpg");
     background-size: cover;
-    background-position: top center;
+    background-position: center;
     height: 400px;
     filter: brightness(0) invert(1);
     filter: opacity(0.75);
 }
 .p_tabocuva{
-    background-image: url("/front-end/imgs/tabocuva_header.jpg");
+    background-image: url("/front-end/imgs/especies_nativas/Tabocuva.jpg");
     background-size: cover;
     background-position: top center;
     height: 400px;
@@ -122,9 +122,9 @@
     filter: opacity(0.75);
 }
 .p_maracuja_roxo{
-    background-image: url("/front-end/imgs/maracuja_roxo_header.jpg");
+    background-image: url("/front-end/imgs/especies_nativas/maracuja-roxo.jpg");
     background-size: cover;
-    background-position: top center;
+    background-position: center;
     height: 400px;
     filter: brightness(0) invert(1);
     filter: opacity(0.75);
@@ -146,17 +146,17 @@
     filter: opacity(0.75);
 }
 .p_araucaria{
-    background-image: url("/front-end/imgs/araucaria_header.jpg");
+    background-image: url("/front-end/imgs/especies_nativas/Araucaria.jpg");
     background-size: cover;
-    background-position: top center;
+    background-position: center;
     height: 400px;
     filter: brightness(0) invert(1);
     filter: opacity(0.75);
 }
 .p_fruto_do_sabia{
-    background-image: url("/front-end/imgs/fruto_do_sabia_header.jpg");
+    background-image: url("/front-end/imgs/especies_nativas/fruto-do-sabia.jpg");
     background-size: cover;
-    background-position: top center;
+    background-position: center;
     height: 400px;
     filter: brightness(0) invert(1);
     filter: opacity(0.75);
@@ -178,15 +178,15 @@
     filter: opacity(0.75);
 }
 .p_chico_pires{
-    background-image: url("/front-end/imgs/chico_pires_header.jpg");
+    background-image: url("/front-end/imgs/especies_nativas/chico-pires.jpg");
     background-size: cover;
-    background-position: top center;
+    background-position: center;
     height: 400px;
     filter: brightness(0) invert(1);
     filter: opacity(0.75);
 }
 .p_manaca_da_serra{
-    background-image: url("/front-end/imgs/manaca_da_serra_header.png");
+    background-image: url("/front-end/imgs/especies_nativas/manaca-da-serra.jpg");
     background-size: cover;
     background-position: top center;
     height: 400px;
@@ -194,17 +194,17 @@
     filter: opacity(0.75);
 }
 .p_araca_roxo{
-    background-image: url("/front-end/imgs/araca_roxo_header.jpg");
+    background-image: url("/front-end/imgs/especies_nativas/Araca-roxo.jpg");
     background-size: cover;
-    background-position: top center;
+    background-position: center;
     height: 400px;
     filter: brightness(0) invert(1);
     filter: opacity(0.75);
 }
 .p_compostagem{
-    background-image: url("/front-end/imgs/compostagem_header\(brilho_reduzido\).jpg");
+    background-image: url("/front-end/imgs/compostagem_header.jpg");
     background-size: cover;
-    background-position: top center;
+    background-position:center;
     height: 400px;
     filter: brightness(0) invert(1);
     filter: opacity(0.75);
@@ -212,7 +212,7 @@
 .p_captacao_agua{
     background-image: url("/front-end/imgs/captacao_chuva_header.jpg");
     background-size: cover;
-    background-position: top center;
+    background-position:center;
     height: 400px;
     filter: brightness(0) invert(1);
     filter: opacity(0.75);
@@ -250,17 +250,17 @@
     filter: opacity(0.75); 
 }
 .p_jabuticaba{
-    background-image: url("/front-end/imgs/jabuticaba_header.jpg");
+    background-image: url("/front-end/imgs/especies_nativas/jabuticaba.jpg");
     background-size: cover;
-    background-position: top center;
+    background-position: center;
     height: 400px;
     filter: brightness(0) invert(1);
     filter: opacity(0.75);
 }
 .p_propagacao_cambucizeiros{
-    background-image: url("/front-end/imgs/cambucizeiro_header.jpg");
+    background-image: url("/front-end/imgs/especies_nativas/cambuci.jpg");
     background-size: cover;
-    background-position: top center;
+    background-position: center;
     height: 400px;
     filter: brightness(0) invert(1);
     filter: opacity(0.75);
@@ -282,9 +282,9 @@
     filter: opacity(0.75);
 }
 .p_materiais_reciclaveis{
-    background-image: url("/front-end/imgs/materiais_reciclaveis_header.jpeg");
+    background-image: url("/front-end/imgs/materiais-reciclaveis-header.jpg");
     background-size: cover;
-    background-position: top center;
+    background-position:center;
     height: 400px;
     filter: brightness(0) invert(1);
     filter: opacity(0.75); 
@@ -298,23 +298,23 @@
     filter: opacity(0.75);
 }
 .p_palmeira_jucara{
-    background-image: url("/front-end/imgs/palmeira-jucara.jpg");
+    background-image: url("/front-end/imgs/especies_nativas/palmeira-jucara.jpg");
     background-size: cover;
-    background-position: top center;
+    background-position: center;
     height: 400px;
     filter: brightness(0) invert(1);
     filter: opacity(0.75);
 }
 .p_jaracatia{
-    background-image: url("/front-end/imgs/jaracatia.jpg");
+    background-image: url("/front-end/imgs/especies_nativas/Jaracatia.jpg");
     background-size: cover;
-    background-position: top center;
+    background-position: center;
     height: 400px;
     filter: brightness(0) invert(1);
     filter: opacity(0.75);
 }
 .p_jequitiba_branco{
-    background-image: url("/front-end/imgs/jequitiba_branco2.jpg");
+    background-image: url("/front-end/imgs/especies_nativas/jequitiba_branco.jpg");
     background-size: cover;
     background-position: top center;
     height: 400px;
@@ -322,9 +322,9 @@
     filter: opacity(0.75);
 }
 .p_uvaia{
-    background-image: url("/front-end/imgs/uvaia.jpg");
+    background-image: url("/front-end/imgs/especies_nativas/Uvaia.jpg");
     background-size: cover;
-    background-position: top center;
+    background-position: center;
     height: 400px;
     filter: brightness(0) invert(1);
     filter: opacity(0.75);
@@ -338,9 +338,9 @@
     filter: opacity(0.75);
 }
 .p_especies_nativas{
-    background-image: url("/front-end/imgs/especies_nativas_header.jpg");
+    background-image: url("/front-end/imgs/especies-nativas-header.jpg");
     background-size: cover;
-    background-position: top center;
+    background-position: center;
     height: 400px;
     filter: brightness(0) invert(1);
     filter: opacity(0.75);
