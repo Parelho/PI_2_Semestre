@@ -1,9 +1,10 @@
 Website feito por alunos do Instituto Mauá de Tecnologia para a Missão Ambiental - Ipiranga.
-Alunos:
-Vinícius Parelho
-Murilo Molina
-Matheus Yukio
-Eduarda Portel
+
+Alunos:</br>
+Vinícius Parelho</br>
+Murilo Molina</br>
+Matheus Yukio</br>
+Eduarda Portel</br>
 Gustavo Ara
 
 Distribuição do trabalho feita em: https://trello.com/b/dhS8Znic/pi-frontend
